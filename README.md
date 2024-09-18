@@ -33,5 +33,5 @@ Users can perform the following actions:
 
 ## Technologies Used
 - **Database**: MySQL
-- **Backend**: Can be implemented with any server-side technology like Node.js, PHP, or Python to interact with the database.
-- **Frontend**: A simple HTML and CSS interface for user interaction (Optional).
+- **Backend**: Python to interact with the database.
+- **Frontend**: A simple HTML and CSS interface
