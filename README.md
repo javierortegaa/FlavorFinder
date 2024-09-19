@@ -33,5 +33,4 @@ Users can perform the following actions:
 
 ## Technologies Used
 - **Database**: MySQL
-- **Backend**: Python to interact with the database.
-- **Frontend**: A simple HTML and CSS interface
+- **Backend & Frontend**: Python 
