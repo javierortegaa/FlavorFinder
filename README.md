@@ -33,4 +33,5 @@ Users can perform the following actions:
 
 ## Technologies Used
 - **Database**: MySQL
-- **Backend & Frontend**: Python 
+- **Backend**: Python
+- **Frontend**: HTML CSS Javascript 
