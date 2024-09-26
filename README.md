@@ -29,7 +29,6 @@ The database is composed of multiple tables that interact through foreign key re
 Users can perform the following actions:
 - Search for recipes based on available ingredients, cuisine type, or taste profile.
 - View detailed information about a specific recipe, including ingredients, instructions, and nutritional info.
-- Add new recipes to the database, complete with instructions, ingredients, and nutrition facts.
 
 ## Technologies Used
 - **Database**: MySQL
