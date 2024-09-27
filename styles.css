@@ -1,0 +1,254 @@
+/* Reset margin and padding for the entire page */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* General styles */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f8f8f8;
+  text-align: center;
+  flex: 1; /* To ensure the footer sticks to the bottom */
+}
+
+/* Header styling */
+header {
+  background-color: #ff6347;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+/* Navigation menu */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  position: relative;
+}
+
+/* Hover effects for navigation links */
+nav ul li a:hover {
+  color: #ffcccb;
+  transition: color 0.3s ease-in-out;
+}
+
+/* Adding an underline effect on hover */
+nav ul li a::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: white;
+  transition: width 0.3s;
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+}
+
+nav ul li a:hover::after {
+  width: 100%;
+}
+
+/* Style for the search container */
+#search-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Styling for the header */
+#search-container h1 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+/* Different color for the span inside the header */
+#search-container h1 span {
+  color: #ff6347; /* Change to any color you'd like */
+}
+
+/* Styling for the paragraph */
+#search-container p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* Center the form elements */
+#search-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#search-form input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+#search-form button {
+  padding: 10px 20px;
+  background-color: #ff6347;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+#search-form button:hover {
+  background-color: #ff4500;
+  transition: background-color 0.3s ease;
+}
+
+/* Recipe box container */
+#recipe-boxes-container {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+}
+
+.recipe-box {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.recipe-box h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.recipe-box p {
+  margin: 5px 0;
+  font-size: 14px;
+  text-align: left;
+}
+
+/* Centering other text elements */
+h2,
+p,
+.content {
+  text-align: center;
+  margin-top: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: auto;
+}
+
+.footer-left,
+.footer-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-left p {
+  text-align: left;
+}
+
+.footer-left a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-left a:hover {
+  color: #ff6347;
+  transition: ease-in-out 0.3s;
+}
+
+/* Footer navigation */
+.footer-nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer-nav ul li {
+  margin: 10px 0;
+}
+
+.footer-nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer-nav ul li a:hover {
+  color: #ffcccb;
+  transition: color 0.3s ease-in-out;
+}
+
+/* Devs info */
+.devs-info {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-right: 40px;
+}
+
+.devs-info div {
+  margin-right: 40px;
+  text-align: left;
+}
+
+.devs-info p {
+  margin: 0;
+  font-size: 14px;
+}
+
+/* Mobile responsiveness */
+@media screen and (max-width: 768px) {
+  .devs-info {
+    justify-content: center;
+  }
+}
