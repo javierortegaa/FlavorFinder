@@ -30,6 +30,8 @@ The database is composed of multiple tables that interact through foreign key re
 - **Nutritional_Info**: Stores nutritional values for each recipe.
 - **Cuisines, Taste_Profiles, Dietary_Restrictions**: Auxiliary tables to categorize recipes.
 
+![DataBase Design](assets/Database.png)
+
 ## How It Works
 
 Users can perform the following actions:
@@ -37,8 +39,6 @@ Users can perform the following actions:
 - Search for recipes based on available ingredients, cuisine type, or taste profile.
 - View detailed information about a specific recipe, including ingredients, instructions, and nutritional info.
 - Add new recipes to the database, complete with instructions, ingredients, and nutrition facts.
-
-![DataBase Design](assets/Database.png)
 
 ## Technologies Used
 
