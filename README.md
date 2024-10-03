@@ -36,7 +36,7 @@ Users can perform the following actions:
 
 - Search for recipes based on available ingredients, cuisine type, or taste profile.
 - View detailed information about a specific recipe, including ingredients, instructions, and nutritional info.
-- Add new recipes to the database, complete with instructions, ingredients, and nutrition facts.
+- Add custom recipes
 
 ![DataBase Design](assets/Database.png)
 
@@ -45,3 +45,4 @@ Users can perform the following actions:
 - **Database**: MySQL to store recipe data.
 - **Backend**: Python scripts handle interactions with the database and process user queries.
 - **Frontend**: HTML and CSS provide a simple interface for users to search and view recipe information.
+
