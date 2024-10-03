@@ -36,7 +36,7 @@ Users can perform the following actions:
 
 - Search for recipes based on available ingredients, cuisine type, or taste profile.
 - View detailed information about a specific recipe, including ingredients, instructions, and nutritional info.
-- Add custom recipes
+- Add new recipes to the database, complete with instructions, ingredients, and nutrition facts.
 
 ![DataBase Design](assets/Database.png)
 
