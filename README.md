@@ -44,5 +44,3 @@ Users can perform the following actions:
 
 - **Database**: MySQL to store recipe data.
 - **Backend**: Python scripts handle interactions with the database and process user queries.
-- **Frontend**: HTML and CSS provide a simple interface for users to search and view recipe information.
-
